@@ -1,0 +1,136 @@
+.background{
+    background-color: #7976da;
+}
+
+.picture-container{
+    justify-content: center;
+    display: flex;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+
+}
+
+h1{
+     color: #190310; 
+    justify-content: center;
+    display:flex;
+
+}
+
+p{
+    display: flex;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.menu{
+    width: 400px;
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-right; 
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li {
+    text-decoration: none;
+    color: #800080;
+    font-family: 'Arial', 'Helvetica';
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #808080;
+    padding-left: 10px;
+    margin-left: auto;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Arial';
+    width: 200px;
+    height: 40px;
+    border: 1px solid #808080;
+    margin-top: 13px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #808080;
+    border: 2px solid #808080;
+    margin-top: 13px;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        color: #808080;
+        position: relative;
+        display: flex;
+        justify-content: center;
+}       
+
+.content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 70px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.blahblah{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
